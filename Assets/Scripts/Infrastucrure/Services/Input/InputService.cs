@@ -8,6 +8,7 @@ public class InputService : IInputService, IInitializable, IDisposable
     public Vector2 MoveAxis => _inputActions.Player.Move.ReadValue<Vector2>();
     public Vector2 LookDelta => _inputActions.Player.Look.ReadValue<Vector2>();
     public bool IsJumpPressed => _inputActions.Player.Jump.WasPressedThisFrame();
+    public bool InteractPressed => _inputActions.Player.Interact.WasPressedThisFrame();
 
     public void Initialize()
     {
