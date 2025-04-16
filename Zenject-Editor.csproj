@@ -59,7 +59,6 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
-    <Analyzer Include="C:\UnityProjects\SplashTesting\Assets\ExternalAssets\Zenject\Source\Usage\Zenject-usage.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Editor\ZenMenuItems.cs" />

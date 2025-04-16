@@ -3,52 +3,20 @@
   "WorkspaceRootPath": "C:\\UnityProjects\\SplashTesting\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|c:\\unityprojects\\splashtesting\\assets\\scripts\\interactions\\baseinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactions\\baseinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|C:\\UnityProjects\\SplashTesting\\assets\\scripts\\infrastucrure\\services\\statemachines\\player\\defaultstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\infrastucrure\\services\\statemachines\\player\\defaultstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2A9DA39-087D-4108-E548-8E98AE6C1575}|OEBIF.csproj|C:\\UnityProjects\\SplashTesting\\assets\\externalassets\\outlineeffect\\outlineeffect\\outline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A9DA39-087D-4108-E548-8E98AE6C1575}|OEBIF.csproj|solutionrelative:assets\\externalassets\\outlineeffect\\outlineeffect\\outline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|C:\\UnityProjects\\SplashTesting\\assets\\scripts\\interactions\\interactableview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactions\\interactableview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|C:\\UnityProjects\\SplashTesting\\assets\\scripts\\interactions\\playerinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactions\\playerinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|C:\\UnityProjects\\SplashTesting\\assets\\scripts\\infrastucrure\\projectinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\infrastucrure\\projectinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|C:\\UnityProjects\\SplashTesting\\assets\\scripts\\interactions\\iinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactions\\iinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|C:\\UnityProjects\\SplashTesting\\assets\\scripts\\playercontroller\\playerlook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller\\playerlook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|C:\\UnityProjects\\SplashTesting\\assets\\scripts\\playercontroller\\groundcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller\\groundcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|C:\\UnityProjects\\SplashTesting\\assets\\scripts\\playercontroller\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|C:\\UnityProjects\\SplashTesting\\assets\\scripts\\infrastucrure\\services\\input\\iinputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\infrastucrure\\services\\input\\iinputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|C:\\UnityProjects\\SplashTesting\\assets\\scripts\\infrastucrure\\services\\input\\inputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\infrastucrure\\services\\input\\inputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|c:\\unityprojects\\splashtesting\\assets\\scripts\\infrastucrure\\playerinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\infrastucrure\\playerinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|C:\\UnityProjects\\SplashTesting\\assets\\scripts\\infrastucrure\\bootstrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\infrastucrure\\bootstrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|C:\\UnityProjects\\SplashTesting\\assets\\scripts\\playercontroller\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,8 +26,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\PlayerController\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController\\PlayerMovement.cs",
+              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\PlayerController\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController\\PlayerMovement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T07:56:48.094Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerInstaller.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Infrastucrure\\PlayerInstaller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Infrastucrure\\PlayerInstaller.cs",
+              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Infrastucrure\\PlayerInstaller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Infrastucrure\\PlayerInstaller.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T12:34:04.464Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
@@ -67,147 +62,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BaseInteractable.cs",
-              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Interactions\\BaseInteractable.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactions\\BaseInteractable.cs",
-              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Interactions\\BaseInteractable.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Interactions\\BaseInteractable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Title": "DefaultState.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Infrastucrure\\Services\\StateMachines\\Player\\DefaultState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Infrastucrure\\Services\\StateMachines\\Player\\DefaultState.cs",
+              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Infrastucrure\\Services\\StateMachines\\Player\\DefaultState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Infrastucrure\\Services\\StateMachines\\Player\\DefaultState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T09:02:30.165Z",
+              "WhenOpened": "2025-04-16T12:25:28.623Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Outline.cs",
-              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\ExternalAssets\\OutlineEffect\\OutlineEffect\\Outline.cs",
-              "RelativeDocumentMoniker": "Assets\\ExternalAssets\\OutlineEffect\\OutlineEffect\\Outline.cs",
-              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\ExternalAssets\\OutlineEffect\\OutlineEffect\\Outline.cs",
-              "RelativeToolTip": "Assets\\ExternalAssets\\OutlineEffect\\OutlineEffect\\Outline.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAowDcAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T10:04:09.427Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "InteractableView.cs",
-              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Interactions\\InteractableView.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactions\\InteractableView.cs",
-              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Interactions\\InteractableView.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Interactions\\InteractableView.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBcAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T09:39:49.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerInteractor.cs",
-              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Interactions\\PlayerInteractor.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactions\\PlayerInteractor.cs",
-              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Interactions\\PlayerInteractor.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Interactions\\PlayerInteractor.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAewBAAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T09:06:58.83Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IInteractable.cs",
-              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Interactions\\IInteractable.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactions\\IInteractable.cs",
-              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Interactions\\IInteractable.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Interactions\\IInteractable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T08:59:54.046Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PlayerLook.cs",
-              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\PlayerController\\PlayerLook.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController\\PlayerLook.cs",
-              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\PlayerController\\PlayerLook.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController\\PlayerLook.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAYwCQAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T08:16:52.644Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GroundCheck.cs",
-              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\PlayerController\\GroundCheck.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController\\GroundCheck.cs",
-              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\PlayerController\\GroundCheck.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController\\GroundCheck.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T07:57:23.63Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\PlayerController\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController\\PlayerMovement.cs",
-              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\PlayerController\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController\\PlayerMovement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T07:56:48.094Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "InputService.cs",
-              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Infrastucrure\\Services\\Input\\InputService.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Infrastucrure\\Services\\Input\\InputService.cs",
-              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Infrastucrure\\Services\\Input\\InputService.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Infrastucrure\\Services\\Input\\InputService.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAwAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T07:17:00.4Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IInputService.cs",
-              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Infrastucrure\\Services\\Input\\IInputService.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Infrastucrure\\Services\\Input\\IInputService.cs",
-              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Infrastucrure\\Services\\Input\\IInputService.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Infrastucrure\\Services\\Input\\IInputService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T07:08:19.664Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProjectInstaller.cs",
-              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Infrastucrure\\ProjectInstaller.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Infrastucrure\\ProjectInstaller.cs",
-              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Infrastucrure\\ProjectInstaller.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Infrastucrure\\ProjectInstaller.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T06:37:33.913Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "Bootstrapper.cs",
               "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Infrastucrure\\Bootstrapper.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Infrastucrure\\Bootstrapper.cs",
               "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Infrastucrure\\Bootstrapper.cs",
               "RelativeToolTip": "Assets\\Scripts\\Infrastucrure\\Bootstrapper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T06:35:33Z"
+              "WhenOpened": "2025-04-16T06:35:33Z",
+              "EditorCaption": ""
             }
           ]
         }

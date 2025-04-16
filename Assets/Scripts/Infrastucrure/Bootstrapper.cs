@@ -3,8 +3,15 @@ using Zenject;
 
 public class Bootstrapper : IInitializable
 {
-    public void Initialize()
+    private ISceneLoader _sceneLoader;
+
+    [Inject]
+    public void Init(ISceneLoader sceneLoader) 
+        => _sceneLoader = sceneLoader;
+
+    public async void Initialize()
     {
-        Debug.Log("GameBootstrapper: Initialization Started");
+        Debug.Log("Bootstrapper: Initialization Started");
+        await _sceneLoader.LoadSceneAsync("Gameplay");
     }
 }

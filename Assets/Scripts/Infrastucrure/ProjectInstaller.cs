@@ -6,5 +6,6 @@ public class ProjectInstaller : MonoInstaller
     {
         Container.BindInterfacesTo<Bootstrapper>().AsSingle();
         Container.BindInterfacesTo<InputService>().AsSingle();
+        Container.BindInterfacesTo<SceneLoader>().AsSingle();
     }
 }

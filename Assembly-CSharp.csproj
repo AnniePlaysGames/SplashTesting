@@ -59,25 +59,30 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
-    <Analyzer Include="C:\UnityProjects\SplashTesting\Assets\ExternalAssets\Zenject\Source\Usage\Zenject-usage.dll" />
-    <Analyzer Include="C:\UnityProjects\SplashTesting\Assets\ExternalAssets\Zenject\OptionalExtras\ReflectionBaking\Lib\Zenject.ReflectionBaking.Mono.Cecil.Rocks.dll" />
-    <Analyzer Include="C:\UnityProjects\SplashTesting\Assets\ExternalAssets\Zenject\OptionalExtras\ReflectionBaking\Lib\Zenject.ReflectionBaking.Mono.Cecil.dll" />
-    <Analyzer Include="C:\UnityProjects\SplashTesting\Assets\ExternalAssets\Zenject\OptionalExtras\ReflectionBaking\Lib\Zenject.ReflectionBaking.Mono.Cecil.Mdb.dll" />
-    <Analyzer Include="C:\UnityProjects\SplashTesting\Assets\ExternalAssets\Zenject\OptionalExtras\ReflectionBaking\Lib\Zenject.ReflectionBaking.Mono.Cecil.Pdb.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Infrastucrure\Services\SceneManagment\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\Infrastucrure\Services\Input\InputService.cs" />
+    <Compile Include="Assets\Scripts\Interactions\Interfaces\IInteractable.cs" />
+    <Compile Include="Assets\Scripts\Infrastucrure\Services\StateMachines\StateMachineBase.cs" />
+    <Compile Include="Assets\Scripts\Infrastucrure\Services\StateMachines\Player\DefaultState.cs" />
+    <Compile Include="Assets\Scripts\Infrastucrure\Services\Input\Interfaces\IInputService.cs" />
     <Compile Include="Assets\Scripts\PlayerController\PlayerLook.cs" />
+    <Compile Include="Assets\Scripts\Infrastucrure\Services\StateMachines\Player\BuildingState.cs" />
     <Compile Include="Assets\PlayerInputActions.cs" />
     <Compile Include="Assets\Scripts\PlayerController\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerController\GroundCheck.cs" />
+    <Compile Include="Assets\Scripts\Infrastucrure\Services\StateMachines\Interfaces\IPayloadedState.cs" />
+    <Compile Include="Assets\Scripts\Infrastucrure\Services\StateMachines\Interfaces\IStateMachine.cs" />
     <Compile Include="Assets\Scripts\Infrastucrure\Bootstrapper.cs" />
     <Compile Include="Assets\Scripts\Infrastucrure\ProjectInstaller.cs" />
-    <Compile Include="Assets\Scripts\Interactions\IInteractable.cs" />
+    <Compile Include="Assets\Scripts\Infrastucrure\Services\StateMachines\Interfaces\IState.cs" />
     <Compile Include="Assets\Scripts\Interactions\InteractableView.cs" />
-    <Compile Include="Assets\Scripts\Infrastucrure\Services\Input\IInputService.cs" />
+    <Compile Include="Assets\Scripts\Infrastucrure\Services\SceneManagment\Interfaces\ISceneLoader.cs" />
     <Compile Include="Assets\Scripts\Interactions\BaseInteractable.cs" />
     <Compile Include="Assets\Scripts\Interactions\PlayerInteractor.cs" />
+    <Compile Include="Assets\Scripts\Infrastucrure\PlayerInstaller.cs" />
+    <Compile Include="Assets\Scripts\Infrastucrure\Services\StateMachines\Player\PlayerStateMachine.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1108,6 +1113,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UniTask.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\UniTask.TextMeshPro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1140,12 +1149,20 @@
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UniTask.Linq">
+      <HintPath>Library\ScriptAssemblies\UniTask.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UniTask.Addressables">
+      <HintPath>Library\ScriptAssemblies\UniTask.Addressables.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
@@ -1160,12 +1177,20 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UniTask.DOTween">
+      <HintPath>Library\ScriptAssemblies\UniTask.DOTween.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.InputSystem">
       <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UniTask">
+      <HintPath>Library\ScriptAssemblies\UniTask.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>

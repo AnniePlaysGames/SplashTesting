@@ -59,7 +59,6 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
-    <Analyzer Include="C:\UnityProjects\SplashTesting\Assets\ExternalAssets\Zenject\Source\Usage\Zenject-usage.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Factories\Pooling\MemoryPoolBase.cs" />
@@ -72,8 +71,8 @@
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Factories\PrefabFactory.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\OptionalExtras\Signals\Internal\Binders\DeclareSignal\DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Binding\Binders\Factory\FactoryArgumentsToChoiceBinder\FactoryArgumentsToChoiceBinder3.cs" />
-    <Compile Include="Assets\ExternalAssets\Zenject\Source\Runtime\Kernels\DefaultGameObjectKernel.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Binding\Binders\Factory\FactoryToChoiceBinder\FactoryToChoiceBinder0.cs" />
+    <Compile Include="Assets\ExternalAssets\Zenject\Source\Runtime\Kernels\DefaultGameObjectKernel.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Util\ExecutionOrderInstaller.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Runtime\TickableManager.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Providers\InstanceProvider.cs" />
@@ -105,8 +104,8 @@
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Binding\Binders\Factory\Pooling\MemoryPoolExpandBinder.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Providers\SubContainerCreators\SubContainerCreatorByInstanceGetter.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\OptionalExtras\Signals\Main\SignalBusInstaller.cs" />
-    <Compile Include="Assets\ExternalAssets\Zenject\OptionalExtras\Signals\Internal\Binders\DeclareSignal\SignalDeclarationBindInfo.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Binding\Finalizers\PrefabBindingFinalizer.cs" />
+    <Compile Include="Assets\ExternalAssets\Zenject\OptionalExtras\Signals\Internal\Binders\DeclareSignal\SignalDeclarationBindInfo.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Factories\KeyedFactory.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Runtime\SceneContextRegistryAdderAndRemover.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Providers\IFactoryProvider.cs" />
@@ -117,12 +116,12 @@
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Providers\GetterProvider.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\OptionalExtras\Signals\Internal\Binders\SignalTickPriorityCopyBinder.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Providers\PrefabProviders\PrefabProvider.cs" />
-    <Compile Include="Assets\ExternalAssets\Zenject\Source\Util\UnityUtil.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Util\ReflectionUtil.cs" />
+    <Compile Include="Assets\ExternalAssets\Zenject\Source\Util\UnityUtil.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Install\MonoInstallerBase.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Providers\SubContainerDependencyProvider.cs" />
-    <Compile Include="Assets\ExternalAssets\Zenject\Source\Runtime\SceneContextRegistry.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\OptionalExtras\Signals\Internal\Binders\BindSignal\SignalCallbackWithLookupWrapper.cs" />
+    <Compile Include="Assets\ExternalAssets\Zenject\Source\Runtime\SceneContextRegistry.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Binding\Binders\IdBinder.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Install\Installer.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\OptionalExtras\Signals\Main\SignalBus.cs" />
@@ -156,10 +155,10 @@
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\SubContainerBinder\FactorySubContainerBinder6.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Binding\Binders\DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Util\ZenjectStateMachineBehaviourAutoInjecter.cs" />
+    <Compile Include="Assets\ExternalAssets\Zenject\Source\Providers\SubContainerCreators\SubContainerCreatorByNewPrefabWithParams.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Factories\Pooling\Util\ListPool.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Util\ZenAutoInjecter.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\SubContainerBinder\FactorySubContainerBinder3.cs" />
-    <Compile Include="Assets\ExternalAssets\Zenject\Source\Providers\SubContainerCreators\SubContainerCreatorByNewPrefabWithParams.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Binding\Finalizers\SingleProviderBindingFinalizer.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Binding\Binders\Factory\FactoryToChoiceIdBinder\FactoryToChoiceIdBinder3.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Providers\SubContainerCreators\SubContainerCreatorByInstaller.cs" />
@@ -172,11 +171,11 @@
     <Compile Include="Assets\ExternalAssets\Zenject\OptionalExtras\Signals\Internal\Binders\SignalCopyBinder.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Runtime\Kernels\Kernel.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Validation\ValidationMarker.cs" />
-    <Compile Include="Assets\ExternalAssets\Zenject\Source\Util\ReflectionInfoTypeInfoConverter.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Providers\SubContainerCreators\SubContainerCreatorUtil.cs" />
+    <Compile Include="Assets\ExternalAssets\Zenject\Source\Util\ReflectionInfoTypeInfoConverter.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Install\MonoInstaller.cs" />
-    <Compile Include="Assets\ExternalAssets\Zenject\Source\Binding\BindingUtil.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Providers\PrefabProviders\PrefabProviderCustom.cs" />
+    <Compile Include="Assets\ExternalAssets\Zenject\Source\Binding\BindingUtil.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\Untyped\FactoryFromBinderUntyped.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Runtime\Kernels\DecoratableMonoKernel.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Factories\PrefabResourceFactory.cs" />
@@ -253,9 +252,9 @@
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Binding\Binders\SubContainerBinder.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Install\InstallerBase.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Providers\ComponentProviders\AddToGameObjectComponentProviders\AddToExistingGameObjectComponentProvider.cs" />
+    <Compile Include="Assets\ExternalAssets\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\FactoryFromBinder4.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Runtime\InitializableManager.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Providers\MethodProviderSimple.cs" />
-    <Compile Include="Assets\ExternalAssets\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\FactoryFromBinder4.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Main\SingletonMarkRegistry.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\OptionalExtras\Signals\Internal\SignalSubscription.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Install\Contexts\Context.cs" />
@@ -266,11 +265,11 @@
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Install\ZenjectBinding.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Binding\Binders\Factory\FactoryArgumentsToChoiceBinder\FactoryArgumentsToChoiceBinder1.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Binding\Binders\FromBinders\FromBinderGeneric.cs" />
-    <Compile Include="Assets\ExternalAssets\Zenject\Source\Injection\LazyInject.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Providers\PrefabProviders\IPrefabProvider.cs" />
+    <Compile Include="Assets\ExternalAssets\Zenject\Source\Injection\LazyInject.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\SubContainerBinder\FactorySubContainerBinderBase.cs" />
-    <Compile Include="Assets\ExternalAssets\Zenject\Source\Runtime\Kernels\SceneKernel.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Binding\BindInfo\BindInfo.cs" />
+    <Compile Include="Assets\ExternalAssets\Zenject\Source\Runtime\Kernels\SceneKernel.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Binding\Binders\Factory\FactoryToChoiceBinder\FactoryToChoiceBinder1.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Main\IInstantiator.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Binding\Binders\Factory\FactoryArgumentsToChoiceBinder\FactoryArgumentsToChoiceBinder5.cs" />
@@ -295,8 +294,8 @@
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Providers\IProvider.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Internal\ValuePair.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\SubContainerBinder\FactorySubContainerBinder1.cs" />
-    <Compile Include="Assets\ExternalAssets\Zenject\Source\Util\ActionInstaller.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Providers\ResourceProvider.cs" />
+    <Compile Include="Assets\ExternalAssets\Zenject\Source\Util\ActionInstaller.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Providers\SubContainerCreators\SubContainerCreatorByNewPrefab.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Providers\ScriptableObjectResourceProvider.cs" />
     <Compile Include="Assets\ExternalAssets\Zenject\Source\Binding\Binders\Conventions\ConventionBindInfo.cs" />

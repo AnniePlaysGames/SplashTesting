@@ -9,6 +9,16 @@
     "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.37f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
+    "com.cysharp.unitask@https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask": {
+      "name": "com.cysharp.unitask",
+      "displayName": "UniTask",
+      "resolvedPath": "C:\\UnityProjects\\SplashTesting\\Library\\PackageCache\\com.cysharp.unitask@6a18b5d4ef81",
+      "fingerprint": "6a18b5d4ef81a010c360c4aaa59db594cd45849e",
+      "editorCompatibility": "2018.4.0a1",
+      "version": "2.5.10",
+      "source": "git",
+      "testable": false
+    },
     "com.unity.collab-proxy@2.7.1": {
       "name": "com.unity.collab-proxy",
       "displayName": "Version Control",
