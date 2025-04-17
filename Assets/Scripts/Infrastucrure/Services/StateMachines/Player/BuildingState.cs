@@ -2,12 +2,12 @@ using System;
 using UnityEngine;
 using Zenject;
 
-public class BuildingState : IState, ITickable
+public class BuildingState : IPayloadedState<BuildingData>, ITickable
 {
     private PlacementLogic _placementLogic;
     private IInputService _inputService;
 
-    public event Action OnStopBuilding; 
+    public event Action OnStopBuilding;
 
     [Inject]
     public void Init(PlacementLogic logic, IInputService inputService)
@@ -16,10 +16,10 @@ public class BuildingState : IState, ITickable
         _inputService = inputService;
     }
 
-    public void Enter()
+    public void Enter(BuildingData data)
     {
-        Debug.Log("Игрок зашёл в состояние строительства");
-        _placementLogic.StartPreview();
+        Debug.Log("Игрок вошел в состояние строительства");
+        _placementLogic.StartPreview(data);
     }
 
     public void Exit()
@@ -32,6 +32,11 @@ public class BuildingState : IState, ITickable
     {
         if (_inputService.CancelPressed)
         {
+            OnStopBuilding?.Invoke();
+        }
+        if (_inputService.InteractPressed && _placementLogic.Valid)
+        {
+            _placementLogic.Place();
             OnStopBuilding?.Invoke();
         }
     }

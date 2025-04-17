@@ -49,6 +49,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Scroll",
+                    "type": "Value",
+                    "id": "f6485b4d-b416-4880-b9ba-565615c67839",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -285,8 +294,8 @@
                 },
                 {
                     "name": "",
-                    "id": "0e9f2223-f459-4963-b265-cae09feae6c7",
-                    "path": "<Keyboard>/escape",
+                    "id": "f7d3e918-51d2-4a3c-87b8-e0de217eae00",
+                    "path": "<Mouse>/rightButton",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
@@ -296,12 +305,12 @@
                 },
                 {
                     "name": "",
-                    "id": "f7d3e918-51d2-4a3c-87b8-e0de217eae00",
-                    "path": "<Mouse>/rightButton",
+                    "id": "f2db1994-11ea-49ec-9356-531fc7de325a",
+                    "path": "<Mouse>/scroll/y",
                     "interactions": "",
-                    "processors": "",
+                    "processors": "Scale",
                     "groups": ";Keyboard&Mouse",
-                    "action": "Cancel",
+                    "action": "Scroll",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

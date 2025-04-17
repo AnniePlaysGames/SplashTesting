@@ -1,5 +1,4 @@
-﻿public interface IState
+﻿public interface IState : IExitableState
 {
     void Enter();
-    void Exit();
 }

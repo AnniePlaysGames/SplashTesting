@@ -1,5 +1,4 @@
-﻿public interface IPayloadedState<TPayload>
+﻿public interface IPayloadedState<TPayload> : IExitableState
 {
     void Enter(TPayload payload);
-    void Exit();
 }

@@ -7,6 +7,7 @@ public interface IInputService
     bool IsJumpPressed { get; }
     bool InteractPressed { get; }
     bool CancelPressed { get; }
+    float ScrollDelta { get; }
 
     void EnableInput();
     void DisableInput();

@@ -1,7 +1,10 @@
+using UnityEngine;
 using Zenject;
 
 public class BuildingSource : BaseInteractable
 {
+    [SerializeField] private BuildingData _data;
+
     private PlayerStateMachine _playerStates;
 
     [Inject]
@@ -13,6 +16,6 @@ public class BuildingSource : BaseInteractable
     public override void Interact()
     {
         base.Interact();
-        _playerStates.Enter<BuildingState>();
+        _playerStates.Enter<BuildingState, BuildingData>(_data);
     }
 }

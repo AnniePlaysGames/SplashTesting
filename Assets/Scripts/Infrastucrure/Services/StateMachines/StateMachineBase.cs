@@ -4,34 +4,34 @@ using Zenject;
 
 public abstract class StateMachineBase : IStateMachine, ITickable
 {
-    private readonly Dictionary<Type, IState> _states = new();
-    private IState _activeState;
+    private readonly Dictionary<Type, IExitableState> _states = new();
+    private IExitableState _activeState;
 
     public void Enter<TState>() where TState : class, IState
         => ChangeState<TState>().Enter();
 
-    protected void AddState(IState state) 
+    public void Enter<TState, TPayload>(TPayload payload) where TState : class, IPayloadedState<TPayload>
+        => ChangeState<TState>().Enter(payload);
+
+    protected void AddState(IExitableState state)
         => _states[state.GetType()] = state;
 
     public void Tick()
     {
         if (_activeState is ITickable tickable)
-        {
             tickable.Tick();
-        }
     }
 
-    protected TState ChangeState<TState>() where TState : class, IState
+    private TState ChangeState<TState>() where TState : class, IExitableState
     {
         _activeState?.Exit();
 
-        if (!_states.TryGetValue(typeof(TState), out var state))
-            throw new Exception($"Состояние {typeof(TState).Name} не найдено!");
-
+        var state = GetState<TState>();
         _activeState = state;
-        return (TState)state;
+
+        return state;
     }
 
-    protected TState GetState<TState>() where TState : class, IState
+    private TState GetState<TState>() where TState : class, IExitableState
         => _states[typeof(TState)] as TState;
 }

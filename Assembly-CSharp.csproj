@@ -62,7 +62,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Infrastucrure\Services\SceneManagment\SceneLoader.cs" />
+    <Compile Include="Assets\Scripts\BuildingSystem\Factories\BuildingFactory.cs" />
     <Compile Include="Assets\Scripts\Infrastucrure\Services\Input\InputService.cs" />
+    <Compile Include="Assets\StaticData\BuildingData.cs" />
     <Compile Include="Assets\Scripts\Interactions\BuildingSource.cs" />
     <Compile Include="Assets\Scripts\Interactions\Interfaces\IInteractable.cs" />
     <Compile Include="Assets\Scripts\Infrastucrure\Services\StateMachines\StateMachineBase.cs" />
@@ -86,9 +88,12 @@
     <Compile Include="Assets\Scripts\BuildingSystem\Interfaces\IPlacementStrategy.cs" />
     <Compile Include="Assets\Scripts\Infrastucrure\Services\StateMachines\Interfaces\IState.cs" />
     <Compile Include="Assets\Scripts\BuildingSystem\Building.cs" />
+    <Compile Include="Assets\Scripts\Infrastucrure\Services\StateMachines\Interfaces\IExitableState.cs" />
     <Compile Include="Assets\Scripts\Interactions\InteractableView.cs" />
+    <Compile Include="Assets\Scripts\BuildingSystem\WallValidator.cs" />
     <Compile Include="Assets\Scripts\Infrastucrure\Services\SceneManagment\Interfaces\ISceneLoader.cs" />
     <Compile Include="Assets\Scripts\BuildingSystem\PlacementStrategies\GroundPlacementStrategy.cs" />
+    <Compile Include="Assets\Scripts\BuildingSystem\Factories\IBuildingFactory.cs" />
     <Compile Include="Assets\Scripts\BuildingSystem\GroundValidator.cs" />
     <Compile Include="Assets\Scripts\Interactions\BaseInteractable.cs" />
     <Compile Include="Assets\Scripts\Interactions\PlayerInteractor.cs" />
