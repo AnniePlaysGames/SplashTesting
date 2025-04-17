@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class BaseInteractable : MonoBehaviour, IInteractable
+public abstract class BaseInteractable : MonoBehaviour, IInteractable
 {
     [field: SerializeField] public int Priority { get; private set; }
     public event Action<bool> OnHoverChangeState;

@@ -6,6 +6,7 @@ public interface IInputService
     Vector2 LookDelta { get; }
     bool IsJumpPressed { get; }
     bool InteractPressed { get; }
+    bool CancelPressed { get; }
 
     void EnableInput();
     void DisableInput();

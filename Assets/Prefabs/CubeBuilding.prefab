@@ -198,4 +198,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 003d1d81654b656438a8592b0835fdf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Anchor: {fileID: 4676254035703172911}
+  <Anchor>k__BackingField: {fileID: 4676254035703172911}
+  <PlacementType>k__BackingField: 0

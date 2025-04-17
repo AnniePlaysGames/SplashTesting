@@ -95,7 +95,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1759924597985508315}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fbf3575480402db40813e763382412fb, type: 3}
   m_Name: 
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13d40c823247f984dab81d1da9e2dba4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactable: {fileID: 8146686766698436698}
+  _interactable: {fileID: 4650024776438765297}
 --- !u!1 &7970204310403131973
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,7 +125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4872313546532624194}
   - component: {fileID: 275283940680240261}
-  - component: {fileID: 8146686766698436698}
+  - component: {fileID: 4650024776438765297}
   m_Layer: 3
   m_Name: SphereBuildingSource
   m_TagString: Untagged
@@ -170,7 +170,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8146686766698436698
+--- !u!114 &4650024776438765297
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -179,7 +179,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7970204310403131973}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15606e5701930564389ebe7fd4e45666, type: 3}
+  m_Script: {fileID: 11500000, guid: af3889b9ee777e54599b44413425b31e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   <Priority>k__BackingField: 0

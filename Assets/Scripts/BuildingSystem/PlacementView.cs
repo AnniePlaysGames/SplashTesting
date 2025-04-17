@@ -21,7 +21,14 @@ public class PlacementView : MonoBehaviour
 
     public void Attach(GameObject instance)
     {
-        _previewInstance = instance.GetComponentInChildren<Renderer>();
+        if (instance == null)
+        {
+            _previewInstance = null;
+        }
+        else
+        {
+            _previewInstance = instance.GetComponentInChildren<Renderer>();
+        }
     }
 
     public void SetValidState(bool isValid)

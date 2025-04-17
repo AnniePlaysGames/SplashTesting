@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Infrastucrure\Services\SceneManagment\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\Infrastucrure\Services\Input\InputService.cs" />
+    <Compile Include="Assets\Scripts\Interactions\BuildingSource.cs" />
     <Compile Include="Assets\Scripts\Interactions\Interfaces\IInteractable.cs" />
     <Compile Include="Assets\Scripts\Infrastucrure\Services\StateMachines\StateMachineBase.cs" />
     <Compile Include="Assets\Scripts\Infrastucrure\Services\StateMachines\Player\DefaultState.cs" />
@@ -70,6 +71,7 @@
     <Compile Include="Assets\Scripts\PlayerController\PlayerLook.cs" />
     <Compile Include="Assets\Scripts\Infrastucrure\Services\StateMachines\Player\BuildingState.cs" />
     <Compile Include="Assets\PlayerInputActions.cs" />
+    <Compile Include="Assets\Scripts\BuildingSystem\PlacementType.cs" />
     <Compile Include="Assets\Scripts\PlayerController\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\BuildingSystem\PlacementView.cs" />
     <Compile Include="Assets\Scripts\BuildingSystem\Interfaces\IPlacementValidator.cs" />
@@ -80,10 +82,13 @@
     <Compile Include="Assets\Scripts\Infrastucrure\Bootstrapper.cs" />
     <Compile Include="Assets\Scripts\Infrastucrure\ProjectInstaller.cs" />
     <Compile Include="Assets\Scripts\BuildingSystem\BuildingAnchor.cs" />
+    <Compile Include="Assets\Scripts\BuildingSystem\PlacementStrategies\WallPlacementStrategy.cs" />
+    <Compile Include="Assets\Scripts\BuildingSystem\Interfaces\IPlacementStrategy.cs" />
     <Compile Include="Assets\Scripts\Infrastucrure\Services\StateMachines\Interfaces\IState.cs" />
     <Compile Include="Assets\Scripts\BuildingSystem\Building.cs" />
     <Compile Include="Assets\Scripts\Interactions\InteractableView.cs" />
     <Compile Include="Assets\Scripts\Infrastucrure\Services\SceneManagment\Interfaces\ISceneLoader.cs" />
+    <Compile Include="Assets\Scripts\BuildingSystem\PlacementStrategies\GroundPlacementStrategy.cs" />
     <Compile Include="Assets\Scripts\BuildingSystem\GroundValidator.cs" />
     <Compile Include="Assets\Scripts\Interactions\BaseInteractable.cs" />
     <Compile Include="Assets\Scripts\Interactions\PlayerInteractor.cs" />

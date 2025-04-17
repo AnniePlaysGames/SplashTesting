@@ -1,7 +1,8 @@
 using System;
 using System.Collections.Generic;
+using Zenject;
 
-public abstract class StateMachineBase : IStateMachine
+public abstract class StateMachineBase : IStateMachine, ITickable
 {
     private readonly Dictionary<Type, IState> _states = new();
     private IState _activeState;
@@ -11,6 +12,14 @@ public abstract class StateMachineBase : IStateMachine
 
     protected void AddState(IState state) 
         => _states[state.GetType()] = state;
+
+    public void Tick()
+    {
+        if (_activeState is ITickable tickable)
+        {
+            tickable.Tick();
+        }
+    }
 
     protected TState ChangeState<TState>() where TState : class, IState
     {
