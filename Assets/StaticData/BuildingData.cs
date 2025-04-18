@@ -4,6 +4,5 @@ using UnityEngine;
 public class BuildingData : ScriptableObject
 {
     public Building PreviewPrefab;
-    public Building BuildingPrefab;
-    public PlacementType PlacementType;
+    public GameObject BuildingPrefab;
 }

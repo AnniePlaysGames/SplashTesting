@@ -13,5 +13,4 @@ MonoBehaviour:
   m_Name: Sphere
   m_EditorClassIdentifier: 
   PreviewPrefab: {fileID: 9122586210616744009, guid: a4151c1f9c409b4439cda15e2145b00e, type: 3}
-  BuildingPrefab: {fileID: 9122586210616744009, guid: a4151c1f9c409b4439cda15e2145b00e, type: 3}
-  PlacementType: 1
+  BuildingPrefab: {fileID: 7970204310403131973, guid: 3ea7eb49b646018419cd120acebe57a4, type: 3}

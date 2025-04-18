@@ -1,6 +1,4 @@
-﻿using UnityEngine;
-
-public interface IPlacementStrategy
+﻿public interface IPlacementStrategy
 {
-    bool TryGetPlacementPoint(out Vector3 point);
+    PlacementResult CalculatePlacement(PlacementContext context);
 }

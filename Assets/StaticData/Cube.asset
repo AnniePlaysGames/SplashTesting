@@ -13,5 +13,4 @@ MonoBehaviour:
   m_Name: Cube
   m_EditorClassIdentifier: 
   PreviewPrefab: {fileID: 9122586210616744009, guid: bbbd45b9c4d25ef478354b3e74d4c8c4, type: 3}
-  BuildingPrefab: {fileID: 9122586210616744009, guid: bbbd45b9c4d25ef478354b3e74d4c8c4, type: 3}
-  PlacementType: 0
+  BuildingPrefab: {fileID: 137537461122586186, guid: 5ff24f0c7289fc64094230cfd6812cf9, type: 3}

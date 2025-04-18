@@ -16,6 +16,9 @@ public class InteractableView : MonoBehaviour
     private void OnDisable() 
         => _interactable.OnHoverChangeState -= ChangeOutlineState;
 
+    private void Start() 
+        => ChangeOutlineState(false);
+
     private void ChangeOutlineState(bool isActive)
     {
         if (isActive)

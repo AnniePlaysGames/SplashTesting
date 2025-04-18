@@ -1,22 +1,29 @@
 using UnityEngine;
+using Zenject;
 
 public class PlacementView : MonoBehaviour
 {
-    [SerializeField] private PlacementLogic placementLogic;
     [SerializeField] private Material _validMaterial;
     [SerializeField] private Material _invalidMaterial;
     private Renderer _previewInstance;
+    private PlacementLogic _placementLogic;
+
+    [Inject]
+    private void Init(PlacementLogic placementLogic)
+    {
+        _placementLogic = placementLogic;
+    }
 
     private void OnEnable()
     {
-        placementLogic.OnPlacementChanged += Attach;
-        placementLogic.OnValidate += SetValidState;
+        _placementLogic.OnPlacementChanged += Attach;
+        _placementLogic.OnValidate += SetValidState;
     }
 
     private void OnDisable()
     {
-        placementLogic.OnPlacementChanged -= Attach;
-        placementLogic.OnValidate -= SetValidState;
+        _placementLogic.OnPlacementChanged -= Attach;
+        _placementLogic.OnValidate -= SetValidState;
     }
 
     public void Attach(GameObject instance)

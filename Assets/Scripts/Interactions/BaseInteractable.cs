@@ -9,6 +9,9 @@ public abstract class BaseInteractable : MonoBehaviour, IInteractable
     public virtual void Interact() 
         => Debug.Log($"Взаимодействуем с {gameObject.name}");
 
+    private void OnDisable() 
+        => OnHoverChangeState?.Invoke(false);
+
     public virtual void OnHoverEnter() 
         => OnHoverChangeState?.Invoke(true);
 

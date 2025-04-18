@@ -22,7 +22,23 @@ public class PlayerInteractor : MonoBehaviour
 
         if (_input.InteractPressed && _currentTarget != null)
         {
-            _currentTarget.Interact();
+            IInteractable target = _currentTarget;
+            ClearCurrentTarget(); 
+            target.Interact();
+        }
+    }
+
+    private void OnDisable()
+    {
+        ClearCurrentTarget();
+    }
+
+    public void ClearCurrentTarget()
+    {
+        if (_currentTarget != null)
+        {
+            _currentTarget.OnHoverExit();
+            _currentTarget = null;
         }
     }
 
@@ -61,15 +77,6 @@ public class PlayerInteractor : MonoBehaviour
         else if (bestTarget == null)
         {
             ClearCurrentTarget();
-        }
-    }
-
-    private void ClearCurrentTarget()
-    {
-        if (_currentTarget != null)
-        {
-            _currentTarget.OnHoverExit();
-            _currentTarget = null;
         }
     }
 

@@ -141,6 +141,7 @@ GameObject:
   - component: {fileID: 5419400978927471419}
   - component: {fileID: 2570761137801771798}
   - component: {fileID: 9122586210616744009}
+  - component: {fileID: 4341769536230143250}
   m_Layer: 2
   m_Name: CubePreview
   m_TagString: Untagged
@@ -200,3 +201,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <Anchor>k__BackingField: {fileID: 4676254035703172911}
   <PlacementType>k__BackingField: 0
+--- !u!114 &4341769536230143250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6044691409270909855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87038f054c92937499d34bc436cf32a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxSlopeAngle: 90

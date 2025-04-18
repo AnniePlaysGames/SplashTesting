@@ -3,36 +3,60 @@
   "WorkspaceRootPath": "C:\\UnityProjects\\SplashTesting\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|c:\\unityprojects\\splashtesting\\assets\\scripts\\buildingsystem\\placementlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\unityprojects\\splashtesting\\assets\\scripts\\interactions\\buildingsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\interactions\\buildingsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|C:\\UnityProjects\\SplashTesting\\assets\\scripts\\buildingsystem\\factories\\buildingfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buildingsystem\\factories\\buildingfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|C:\\UnityProjects\\SplashTesting\\assets\\scripts\\buildingsystem\\factories\\ibuildingfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buildingsystem\\factories\\ibuildingfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|C:\\UnityProjects\\SplashTesting\\assets\\scripts\\buildingsystem\\placementlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buildingsystem\\placementlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|c:\\unityprojects\\splashtesting\\assets\\scripts\\infrastucrure\\services\\statemachines\\statemachinebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\infrastucrure\\services\\statemachines\\statemachinebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|c:\\unityprojects\\splashtesting\\assets\\scripts\\interactions\\playerinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactions\\playerinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|c:\\unityprojects\\splashtesting\\assets\\scripts\\infrastucrure\\services\\statemachines\\player\\buildingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|C:\\UnityProjects\\SplashTesting\\assets\\scripts\\infrastucrure\\services\\statemachines\\player\\buildingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\infrastucrure\\services\\statemachines\\player\\buildingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|c:\\unityprojects\\splashtesting\\assets\\scripts\\infrastucrure\\services\\statemachines\\interfaces\\ipayloadedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\infrastucrure\\services\\statemachines\\interfaces\\ipayloadedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|C:\\UnityProjects\\SplashTesting\\assets\\scripts\\buildingsystem\\placementstrategies\\wallplacementstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buildingsystem\\placementstrategies\\wallplacementstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|C:\\UnityProjects\\SplashTesting\\assets\\scripts\\buildingsystem\\groundvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buildingsystem\\groundvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|C:\\UnityProjects\\SplashTesting\\assets\\scripts\\interactions\\playerinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactions\\playerinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|C:\\UnityProjects\\SplashTesting\\assets\\scripts\\infrastucrure\\playerinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\infrastucrure\\playerinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|C:\\UnityProjects\\SplashTesting\\assets\\scripts\\interactions\\baseinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactions\\baseinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|C:\\UnityProjects\\SplashTesting\\assets\\scripts\\infrastucrure\\services\\statemachines\\statemachinebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\infrastucrure\\services\\statemachines\\statemachinebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|C:\\UnityProjects\\SplashTesting\\assets\\scripts\\interactions\\interactableview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactions\\interactableview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|C:\\UnityProjects\\SplashTesting\\assets\\scripts\\buildingsystem\\placementview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buildingsystem\\placementview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|C:\\UnityProjects\\SplashTesting\\assets\\staticdata\\buildingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|solutionrelative:assets\\staticdata\\buildingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|C:\\UnityProjects\\SplashTesting\\assets\\scripts\\buildingsystem\\building.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7A5300-AF24-A57D-9AC8-2744BC206192}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buildingsystem\\building.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\unityprojects\\splashtesting\\assets\\scripts\\buildingsystem\\groundvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\buildingsystem\\groundvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,104 +74,172 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlayerInteractor.cs",
-              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Interactions\\PlayerInteractor.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactions\\PlayerInteractor.cs",
-              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Interactions\\PlayerInteractor.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Interactions\\PlayerInteractor.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAgwBgAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T15:16:28.711Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StateMachineBase.cs",
-              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Infrastucrure\\Services\\StateMachines\\StateMachineBase.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Infrastucrure\\Services\\StateMachines\\StateMachineBase.cs",
-              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Infrastucrure\\Services\\StateMachines\\StateMachineBase.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Infrastucrure\\Services\\StateMachines\\StateMachineBase.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAA7wA0AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T15:16:17.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IPayloadedState.cs",
-              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Infrastucrure\\Services\\StateMachines\\Interfaces\\IPayloadedState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Infrastucrure\\Services\\StateMachines\\Interfaces\\IPayloadedState.cs",
-              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Infrastucrure\\Services\\StateMachines\\Interfaces\\IPayloadedState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Infrastucrure\\Services\\StateMachines\\Interfaces\\IPayloadedState.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T15:16:14.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BuildingState.cs",
-              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Infrastucrure\\Services\\StateMachines\\Player\\BuildingState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Infrastucrure\\Services\\StateMachines\\Player\\BuildingState.cs",
-              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Infrastucrure\\Services\\StateMachines\\Player\\BuildingState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Infrastucrure\\Services\\StateMachines\\Player\\BuildingState.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBgAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T15:16:07.704Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PlayerInstaller.cs",
-              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Infrastucrure\\PlayerInstaller.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Infrastucrure\\PlayerInstaller.cs",
-              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Infrastucrure\\PlayerInstaller.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Infrastucrure\\PlayerInstaller.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T15:13:09.441Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WallPlacementStrategy.cs",
-              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\BuildingSystem\\PlacementStrategies\\WallPlacementStrategy.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\BuildingSystem\\PlacementStrategies\\WallPlacementStrategy.cs",
-              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\BuildingSystem\\PlacementStrategies\\WallPlacementStrategy.cs",
-              "RelativeToolTip": "Assets\\Scripts\\BuildingSystem\\PlacementStrategies\\WallPlacementStrategy.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T15:06:00.999Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlacementLogic.cs",
-              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\BuildingSystem\\PlacementLogic.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\BuildingSystem\\PlacementLogic.cs",
-              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\BuildingSystem\\PlacementLogic.cs",
-              "RelativeToolTip": "Assets\\Scripts\\BuildingSystem\\PlacementLogic.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAzwCAAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T15:05:53.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "GroundValidator.cs",
               "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\BuildingSystem\\GroundValidator.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BuildingSystem\\GroundValidator.cs",
               "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\BuildingSystem\\GroundValidator.cs",
               "RelativeToolTip": "Assets\\Scripts\\BuildingSystem\\GroundValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T15:03:40.595Z"
+              "WhenOpened": "2025-04-18T10:42:12.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerInstaller.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Infrastucrure\\PlayerInstaller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Infrastucrure\\PlayerInstaller.cs",
+              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Infrastucrure\\PlayerInstaller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Infrastucrure\\PlayerInstaller.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T10:33:32.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InteractableView.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Interactions\\InteractableView.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactions\\InteractableView.cs",
+              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Interactions\\InteractableView.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interactions\\InteractableView.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwA0AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T10:30:18.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IBuildingFactory.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\BuildingSystem\\Factories\\IBuildingFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BuildingSystem\\Factories\\IBuildingFactory.cs",
+              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\BuildingSystem\\Factories\\IBuildingFactory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BuildingSystem\\Factories\\IBuildingFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T10:23:07.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Building.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\BuildingSystem\\Building.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BuildingSystem\\Building.cs",
+              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\BuildingSystem\\Building.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BuildingSystem\\Building.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T10:16:50.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BaseInteractable.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Interactions\\BaseInteractable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactions\\BaseInteractable.cs",
+              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Interactions\\BaseInteractable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interactions\\BaseInteractable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T09:58:39.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlacementLogic.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\BuildingSystem\\PlacementLogic.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BuildingSystem\\PlacementLogic.cs",
+              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\BuildingSystem\\PlacementLogic.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BuildingSystem\\PlacementLogic.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAUwCQAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T09:31:48.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerInteractor.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Interactions\\PlayerInteractor.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactions\\PlayerInteractor.cs",
+              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Interactions\\PlayerInteractor.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interactions\\PlayerInteractor.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwBoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T09:36:23.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlacementView.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\BuildingSystem\\PlacementView.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BuildingSystem\\PlacementView.cs",
+              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\BuildingSystem\\PlacementView.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BuildingSystem\\PlacementView.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAhwAoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T09:30:57.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BuildingState.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Infrastucrure\\Services\\StateMachines\\Player\\BuildingState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Infrastucrure\\Services\\StateMachines\\Player\\BuildingState.cs",
+              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Infrastucrure\\Services\\StateMachines\\Player\\BuildingState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Infrastucrure\\Services\\StateMachines\\Player\\BuildingState.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T09:28:41.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BuildingData.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\StaticData\\BuildingData.cs",
+              "RelativeDocumentMoniker": "Assets\\StaticData\\BuildingData.cs",
+              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\StaticData\\BuildingData.cs",
+              "RelativeToolTip": "Assets\\StaticData\\BuildingData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T09:11:07.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BuildingFactory.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\BuildingSystem\\Factories\\BuildingFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BuildingSystem\\Factories\\BuildingFactory.cs",
+              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\BuildingSystem\\Factories\\BuildingFactory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BuildingSystem\\Factories\\BuildingFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T09:05:49.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BuildingSource.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Interactions\\BuildingSource.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactions\\BuildingSource.cs",
+              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Interactions\\BuildingSource.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interactions\\BuildingSource.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwA4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T08:57:40.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StateMachineBase.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Infrastucrure\\Services\\StateMachines\\StateMachineBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Infrastucrure\\Services\\StateMachines\\StateMachineBase.cs",
+              "ToolTip": "C:\\UnityProjects\\SplashTesting\\Assets\\Scripts\\Infrastucrure\\Services\\StateMachines\\StateMachineBase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Infrastucrure\\Services\\StateMachines\\StateMachineBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T15:16:17.278Z"
             }
           ]
         }
