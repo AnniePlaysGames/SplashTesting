@@ -34,7 +34,9 @@ public class PlacementLogic : MonoBehaviour
     public void StartPreview(BuildingData data)
     {
         _currentData = data;
-        _previewInstance = _buildingFactory.CreatePreview(data);
+
+        Vector3 initialPos = Camera.main.transform.position + Camera.main.transform.forward * 2f;
+        _previewInstance = _buildingFactory.CreatePreview(data, initialPos);
         _mainCollider = _previewInstance.GetComponent<BoxCollider>();
         _slopeModule = _previewInstance.GetComponent<SlopePlacementModule>();
 

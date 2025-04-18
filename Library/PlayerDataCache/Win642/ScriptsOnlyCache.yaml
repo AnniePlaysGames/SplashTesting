@@ -15,10 +15,13 @@ ScriptsOnlyBuild:
     - PlayerInteractor
     - PlayerLook
     - PlayerMovement
+    - SlopePlacementModule
     OEBIF.dll:
     - cakeslice.Outline
     - cakeslice.OutlineEffect
     Unity.InputSystem.dll:
+    - UnityEngine.InputSystem.Editor.InputActionAssetEditor
+    - UnityEngine.InputSystem.Editor.InputActionImporterEditor
     - UnityEngine.InputSystem.InputActionAsset
     - UnityEngine.InputSystem.InputActionReference
     - UnityEngine.InputSystem.InputSettings
@@ -27,6 +30,17 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.UI.InputSystemUIInputModule
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -54,9 +68,29 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputBinding
     - UnityEngine.InputSystem.InputControlScheme
     - UnityEngine.InputSystem.InputControlScheme/DeviceRequirement
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_Sprite
+    - TMPro.TMP_SpriteCharacter
+    - TMPro.TMP_SpriteGlyph
+    - TMPro.TMP_Style
+    - TMPro.VertexGradient
     UnityEngine.CoreModule:
     - UnityEngine.Events.PersistentCallGroup
     - UnityEngine.Events.UnityEvent
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
+    - UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord
+    - UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord
+    - UnityEngine.TextCore.LowLevel.GlyphValueRecord
     UnityEngine.UI:
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     Zenject:
@@ -96,49 +130,51 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9978}
+      Script: {instanceID: 10016}
     - Class: 114
-      Script: {instanceID: 10510}
+      Script: {instanceID: 10548}
     - Class: 114
-      Script: {instanceID: 10846}
+      Script: {instanceID: 10884}
     - Class: 114
-      Script: {instanceID: 10850}
+      Script: {instanceID: 10888}
     - Class: 114
-      Script: {instanceID: 11890}
+      Script: {instanceID: 11928}
     - Class: 114
-      Script: {instanceID: 11898}
+      Script: {instanceID: 11936}
     - Class: 114
-      Script: {instanceID: 12178}
+      Script: {instanceID: 12216}
     - Class: 114
-      Script: {instanceID: 12360}
+      Script: {instanceID: 12398}
     - Class: 114
-      Script: {instanceID: 12466}
+      Script: {instanceID: 12504}
     - Class: 114
-      Script: {instanceID: 14922}
+      Script: {instanceID: 14962}
     - Class: 114
-      Script: {instanceID: 14940}
+      Script: {instanceID: 14980}
     - Class: 114
-      Script: {instanceID: 15444}
+      Script: {instanceID: 15484}
     - Class: 114
-      Script: {instanceID: 15470}
+      Script: {instanceID: 15510}
     - Class: 114
-      Script: {instanceID: 15582}
+      Script: {instanceID: 15622}
     - Class: 114
-      Script: {instanceID: 15740}
+      Script: {instanceID: 15780}
     - Class: 114
-      Script: {instanceID: 15746}
+      Script: {instanceID: 15786}
     - Class: 114
-      Script: {instanceID: 15880}
+      Script: {instanceID: 15920}
     - Class: 114
-      Script: {instanceID: 16344}
+      Script: {instanceID: 16386}
     - Class: 114
-      Script: {instanceID: 16452}
+      Script: {instanceID: 16494}
     - Class: 114
-      Script: {instanceID: 16574}
+      Script: {instanceID: 16616}
     - Class: 114
-      Script: {instanceID: 17542}
+      Script: {instanceID: 17584}
     - Class: 114
-      Script: {instanceID: 17544}
+      Script: {instanceID: 17586}
+    - Class: 114
+      Script: {instanceID: 18060}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -162,15 +198,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 4
       Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 81
+    - Class: 49
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -179,12 +213,22 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11278}
+      Script: {instanceID: 11160}
     - Class: 114
-      Script: {instanceID: 11890}
+      Script: {instanceID: 11316}
     - Class: 114
-      Script: {instanceID: 15142}
+      Script: {instanceID: 11928}
+    - Class: 114
+      Script: {instanceID: 15182}
+    - Class: 114
+      Script: {instanceID: 15636}
+    - Class: 114
+      Script: {instanceID: 16874}
+    - Class: 114
+      Script: {instanceID: 16946}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -211,9 +255,35 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 10264}
+    - Class: 114
+      Script: {instanceID: 10548}
+    - Class: 114
+      Script: {instanceID: 10884}
+    - Class: 114
+      Script: {instanceID: 12504}
+    - Class: 114
+      Script: {instanceID: 15484}
+    - Class: 114
+      Script: {instanceID: 15780}
+    - Class: 114
+      Script: {instanceID: 15920}
+    - Class: 114
+      Script: {instanceID: 16946}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -560,7 +630,7 @@ ScriptsOnlyBuild:
     className: HorizontalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 65066298900a0df4bc836d2b9c24fe82
+      Hash: 8f6a20a2f6e73990206c0b9e56e4bdac
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlacementView
@@ -1214,7 +1284,7 @@ ScriptsOnlyBuild:
     className: RemoteInputPlayerConnection
   - hash:
       serializedVersion: 2
-      Hash: d4d0a3ae722f23fb422f6f5a618a02a7
+      Hash: 757fb772c4fc64d9ecad03e2111ff8b7
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: BuildingData
@@ -1232,7 +1302,7 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: 0364b2e1247320897ca80bec9ff6f37c
+      Hash: 857d0aee0b217e62cdc7ea9238b663b1
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: BuildingSource
@@ -1334,7 +1404,7 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
-      Hash: 787becea08964435e09eec48deaa2a7b
+      Hash: 646a22cd0238ae631d1dd997a8cc1254
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlacementLogic
@@ -1392,6 +1462,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnCollisionStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 7c69a61364b0dd80f90165b04a1bfde8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SlopePlacementModule
   - hash:
       serializedVersion: 2
       Hash: d82086405f46de14829f6b4bcbdd8fc9

@@ -10,9 +10,10 @@ public class BuildingFactory : IBuildingFactory
         _container = container;
     }
 
-    public Building CreatePreview(BuildingData data)
+    public Building CreatePreview(BuildingData data, Vector3 position)
     {
         Building preview = _container.InstantiatePrefabForComponent<Building>(data.PreviewPrefab);
+        preview.transform.position = position;
         preview.gameObject.SetActive(true);
         return preview;
     }

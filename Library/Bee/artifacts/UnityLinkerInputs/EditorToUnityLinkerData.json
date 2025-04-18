@@ -225,10 +225,52 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "SlopePlacementModule",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "StreamingManager",
             "fullManagedTypeName": "",
             "moduleName": "Streaming",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TextMeshProUGUI",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TMP_FontAsset",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TMP_Settings",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TMP_SpriteAsset",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TMP_StyleSheet",
+            "moduleName": "",
             "usedInScenes": []
         },
         {
@@ -259,7 +301,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Gameplay.unity",
-                "Assets/Scenes/Initial.unity"
+                "Assets/Scenes/Initial.unity",
+                "Assets/Scenes/Loading.unity"
             ]
         },
         {
@@ -304,7 +347,6 @@
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Scenes/Gameplay.unity",
-                "Assets/Scenes/Initial.unity",
                 "Assets/Scenes/Loading.unity"
             ]
         },
@@ -315,7 +357,6 @@
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Scenes/Gameplay.unity",
-                "Assets/Scenes/Initial.unity",
                 "Assets/Scenes/Loading.unity"
             ]
         },
@@ -346,7 +387,6 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Gameplay.unity",
-                "Assets/Scenes/Initial.unity",
                 "Assets/Scenes/Loading.unity"
             ]
         },
@@ -356,7 +396,8 @@
             "fullManagedTypeName": "UnityEngine.Canvas",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/Scenes/Gameplay.unity"
+                "Assets/Scenes/Gameplay.unity",
+                "Assets/Scenes/Loading.unity"
             ]
         },
         {
@@ -365,7 +406,8 @@
             "fullManagedTypeName": "UnityEngine.CanvasRenderer",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/Scenes/Gameplay.unity"
+                "Assets/Scenes/Gameplay.unity",
+                "Assets/Scenes/Loading.unity"
             ]
         },
         {
@@ -417,6 +459,16 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Font",
+            "fullManagedTypeName": "UnityEngine.Font",
+            "moduleName": "TextRendering",
+            "usedInScenes": [
+                "Assets/Scenes/Initial.unity",
+                "Assets/Scenes/Loading.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "GameObject",
             "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
@@ -425,6 +477,20 @@
                 "Assets/Scenes/Initial.unity",
                 "Assets/Scenes/Loading.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "Unity.InputSystem.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.InputSystem.Editor.InputActionAssetEditor",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.InputSystem.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.InputSystem.Editor.InputActionImporterEditor",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "Unity.InputSystem.dll",
@@ -544,7 +610,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Gameplay.unity",
-                "Assets/Scenes/Initial.unity"
+                "Assets/Scenes/Initial.unity",
+                "Assets/Scenes/Loading.unity"
             ]
         },
         {
@@ -571,7 +638,8 @@
             "fullManagedTypeName": "UnityEngine.RectTransform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Gameplay.unity"
+                "Assets/Scenes/Gameplay.unity",
+                "Assets/Scenes/Loading.unity"
             ]
         },
         {
@@ -637,7 +705,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Gameplay.unity",
-                "Assets/Scenes/Initial.unity"
+                "Assets/Scenes/Initial.unity",
+                "Assets/Scenes/Loading.unity"
             ]
         },
         {

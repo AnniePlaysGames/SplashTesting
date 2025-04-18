@@ -1,4 +1,3 @@
-using UnityEngine;
 using Zenject;
 
 public class DefaultState : IState
@@ -13,12 +12,11 @@ public class DefaultState : IState
     
     public void Enter()
     {
-        Debug.Log("Игрок зашёл в стандартное состояние");
         _interactor.enabled = true;
     }
 
     public void Exit()
     {
-        Debug.Log("Игрок вышел из стандартного состояния");
+
     }
 }

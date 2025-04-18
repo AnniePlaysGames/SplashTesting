@@ -4866,8 +4866,8 @@
       "DisplayName": "Writing app.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 129167,
-      "PayloadLength": 28,
-      "PayloadDebugContentSnippet": "DefaultCompany\nSplashTesting",
+      "PayloadLength": 24,
+      "PayloadDebugContentSnippet": "Ilya Sopko\nSplashTesting",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [

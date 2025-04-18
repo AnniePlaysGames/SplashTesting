@@ -33,7 +33,7 @@ public class BuildingSource : BaseInteractable
             HideSource();
         }
 
-        var context = new BuildingContext(_data, OnCancel);
+        BuildingContext context = new BuildingContext(_data, OnCancel);
         _playerStates.Enter<BuildingState, IBuildingContext>(context);
     }
 
